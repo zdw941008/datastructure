@@ -13,7 +13,7 @@ public class TestBinarySearch {
         int[] arr = new int[]{1,2,3,4,5,6,7,8,9};
         System.out.println(Arrays.toString(arr));
         //目标元素
-        int target = 3;
+        int target = -1;
         //开始位置
         int begin = 0;
         //结束位置
@@ -27,6 +27,9 @@ public class TestBinarySearch {
         System.out.println("mid:"+mid);
         System.out.println("end:"+end);
         while (true){
+            if (begin>=end){
+                return;
+            }
             //判断中间的这个元素是不是要查找的元素
             if(arr[mid]==target){
                 index=mid;

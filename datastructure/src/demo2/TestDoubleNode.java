@@ -23,9 +23,7 @@ public class TestDoubleNode {
         System.out.println(n3.next().getData());
 
 
-
     }
-
 
 
 }

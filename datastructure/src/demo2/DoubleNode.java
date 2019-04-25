@@ -18,7 +18,7 @@ public class DoubleNode {
     }
 
     //增加节点
-    public void after(DoubleNode node){
+    public void after(DoubleNode node) {
         //原来的下一个节点
         DoubleNode nextNext = this.next;
         //吧新节点作为当前节点的下一个节点
@@ -32,20 +32,19 @@ public class DoubleNode {
     }
 
     //下一个节点
-    public DoubleNode next(){
+    public DoubleNode next() {
         return this.next;
     }
 
     //上一个节点
-    public DoubleNode pre(){
+    public DoubleNode pre() {
         return this.pre;
     }
 
     //获取数据
-    public int getData(){
+    public int getData() {
         return this.data;
     }
-
 
 
 }

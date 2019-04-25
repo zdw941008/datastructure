@@ -21,7 +21,6 @@ public class TestLoopNode {
         System.out.println(n4.next.getData());
 
 
-
     }
 
 

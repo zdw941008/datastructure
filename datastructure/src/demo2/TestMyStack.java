@@ -21,7 +21,6 @@ public class TestMyStack {
         System.out.println(ms.isEmpty());
 
 
-
     }
 
 

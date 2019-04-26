@@ -13,7 +13,7 @@ public class TestHuffmanTree {
     public static void main(String[] args) {
         int[] arr = new int[]{3,7,8,29,5,11,23,14};
         Node node = createHuffmanTree(arr);
-        System.out.println(node);
+        System.out.println(node.right.value);
     }
 
     //创建赫夫曼树
@@ -33,6 +33,9 @@ public class TestHuffmanTree {
             Node right = nodes.get(nodes.size()-2);
             //创建一颗新的二叉树
             Node parent = new Node(left.value+right.value);
+            //把之前取出来的两颗二叉树设置为新创建的二叉树的子树
+            parent.left = left;
+            parent.right = right;
             //把取出来的两个二叉树移除
             nodes.remove(left);
             nodes.remove(right);

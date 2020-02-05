@@ -4,7 +4,7 @@ package demo9;
  * Created by zdw
  * 2019-04-24 16:52.
  */
-public class Node implements Comparable<Node>{
+public class Node implements Comparable<Node> {
     int value;
     Node left;
     Node right;
@@ -15,7 +15,7 @@ public class Node implements Comparable<Node>{
 
     @Override
     public int compareTo(Node o) {
-        return -(this.value-o.value);
+        return -(this.value - o.value);
     }
 
     @Override

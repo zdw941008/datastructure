@@ -1,4 +1,4 @@
-package demo4;
+package demo4_sort;
 
 /**
  * Created by zdw

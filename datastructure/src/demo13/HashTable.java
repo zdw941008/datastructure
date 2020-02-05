@@ -8,14 +8,14 @@ public class HashTable {
 
     private StuInfo[] data = new StuInfo[100];
 
-    public void put(StuInfo stuInfo){
+    public void put(StuInfo stuInfo) {
         //调用散列函数获取存储位置
         int index = stuInfo.hashCode();
         //添加元素
-        data[index]=stuInfo;
+        data[index] = stuInfo;
     }
 
-    public StuInfo get(StuInfo stuInfo){
+    public StuInfo get(StuInfo stuInfo) {
         return data[stuInfo.hashCode()];
     }
 

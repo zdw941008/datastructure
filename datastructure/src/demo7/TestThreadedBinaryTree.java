@@ -21,7 +21,7 @@ public class TestThreadedBinaryTree {
         root.setRightNode(rootR);
         //为第二层的左节点创建两个子节点
         rootL.setLeftNode(new ThreadedNode(4));
-        ThreadedNode fiveNode= new ThreadedNode(5);
+        ThreadedNode fiveNode = new ThreadedNode(5);
         rootL.setRightNode(fiveNode);
         //为第二层的右节点创建两个子节点
         rootR.setLeftNode(new ThreadedNode(6));

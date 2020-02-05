@@ -4,7 +4,7 @@ package demo10;
  * Created by zdw
  * 2019-04-25 16:16.
  */
-public class Node implements Comparable<Node>{
+public class Node implements Comparable<Node> {
 
     Byte data;
 
@@ -21,7 +21,7 @@ public class Node implements Comparable<Node>{
 
     @Override
     public int compareTo(Node o) {
-        return -(this.weight-o.weight);
+        return -(this.weight - o.weight);
     }
 
     @Override

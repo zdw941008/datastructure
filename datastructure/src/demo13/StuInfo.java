@@ -19,8 +19,6 @@ public class StuInfo {
     }
 
 
-
-
     public int getAge() {
         return age;
     }
@@ -39,10 +37,11 @@ public class StuInfo {
 
     /**
      * 散列函数
+     *
      * @return
      */
-    public int hashCode(){
-        return age%10;
+    public int hashCode() {
+        return age % 10;
     }
 
     @Override

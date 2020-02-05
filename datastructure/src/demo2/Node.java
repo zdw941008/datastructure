@@ -8,9 +8,9 @@ package demo2;
 public class Node {
 
     //节点内容
-    int data;
+    public int data;
     //下一个节点
-    Node next;
+    public Node next;
 
     public Node(int data) {
         this.data = data;
